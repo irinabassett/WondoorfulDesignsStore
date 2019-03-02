@@ -1,7 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(WondoorfulDesignsStore.Startup))]
+[assembly: OwinStartup(typeof(WondoorfulDesignsStore.Startup))]
 namespace WondoorfulDesignsStore
 {
     public partial class Startup {

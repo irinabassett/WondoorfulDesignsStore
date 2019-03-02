@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
 
 namespace WondoorfulDesignsStore.Models
 {
-        public class ProductDatabaseInitializer : DropCreateDatabaseAlways<ProductContext>
+    public class ProductDatabaseInitializer : DropCreateDatabaseAlways<ProductContext>
     {
             protected override void Seed(ProductContext context)
             {
@@ -107,7 +106,7 @@ namespace WondoorfulDesignsStore.Models
                     ProductID = 7,
                     ProductName = "Candy Corn",
                     Description = "Got candy? This candy corn says it all.",
-                    ImagePath="cancy_corn.jpg",
+                    ImagePath="candy_corn.jpg",
                     UnitPrice = 25.00,
                     CategoryID = 2
                 },
@@ -125,7 +124,7 @@ namespace WondoorfulDesignsStore.Models
                     ProductID = 9,
                     ProductName = "Scarecrow",
                     Description = "Smiley and not too scary scarecrow.",
-                    ImagePath="scarecrow",
+                    ImagePath="scarecrow.jpg",
                     UnitPrice = 25.00,
                     CategoryID = 2
                 },
@@ -161,7 +160,7 @@ namespace WondoorfulDesignsStore.Models
                     ProductID = 13,
                     ProductName = "Bunny",
                     Description = "The Spring has sprung!",
-                    ImagePath="bunnt.jpg",
+                    ImagePath="bunny.jpg",
                     UnitPrice = 25.00,
                     CategoryID = 4
                 },
