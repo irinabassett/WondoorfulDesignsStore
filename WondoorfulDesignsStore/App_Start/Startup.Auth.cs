@@ -59,11 +59,11 @@ namespace WondoorfulDesignsStore
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "554940777574-ikf46bitdvv3k9ov0neqrjd6ufp0mu81.apps.googleusercontent.com",
+                ClientSecret = "tBH7toNwUtsNJPqoVsMYZUL -"
+            });
         }
     }
 }

@@ -38,6 +38,10 @@ namespace WondoorfulDesignsStore.Account
                 switch (result)
                 {
                     case SignInStatus.Success:
+                        WondoorfulDesignsStore.Logic.ShoppingCartActions usersShoppingCart = new WondoorfulDesignsStore.Logic.ShoppingCartActions();
+                        String cartId = usersShoppingCart.GetCartId();
+                        usersShoppingCart.MigrateCart(cartId, Email.Text);
+
                         IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
                         break;
                     case SignInStatus.LockedOut:
