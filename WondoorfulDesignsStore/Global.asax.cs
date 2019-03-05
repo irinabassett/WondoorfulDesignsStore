@@ -8,6 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using WondoorfulDesignsStore.Models;
+using WondoorfulDesignsStore.Logic;
 
 namespace WondoorfulDesignsStore
 {
@@ -21,6 +22,10 @@ namespace WondoorfulDesignsStore
 
             // Initialize the product database.
             Database.SetInitializer(new ProductDatabaseInitializer());
+
+            // Create the custom role and user.
+            RoleActions roleActions = new RoleActions();
+            roleActions.AddUserAndRole();
         }
     }
 }

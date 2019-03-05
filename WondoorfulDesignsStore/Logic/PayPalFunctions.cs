@@ -30,9 +30,9 @@ public class NVPAPICaller
     private const string PWD = "PWD";
     private const string ACCT = "ACCT";
 
-    public string APIUsername = "<irina.bassett-facilitator_api1.gmail.com>";
-    private string APIPassword = "<H26YR8YG7AW9FUWJ>";
-    private string APISignature = "<AAvLBz469B8kovcvezbsbNdzegQHA8RLcqrlfTsUm5mz6fhEoNLCgAj7>";
+    public string APIUsername = "<wondoorful-developer_api1.live.com>";
+    private string APIPassword = "<DHE4PSAQAEJ2ST38>";
+    private string APISignature = "<AU-C7Ml6CZ.YODugGUkMlAUH5j5nACfmoid0KcX8ZoC4uf90CmD5pCvD>";
     private string Subject = "";
     private string BNCode = "PP-ECWizard";
 
